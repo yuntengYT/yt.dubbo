@@ -1,20 +1,18 @@
 package yt.dubbo.config;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
-import com.alibaba.dubbo.config.ConsumerConfig;
 import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
  * @author yunteng
  */
 
 @Configuration
-public class MyDubboConfig extends WebMvcConfigurerAdapter {
+public class MyDubboConfig {
 
 
 	@Bean
